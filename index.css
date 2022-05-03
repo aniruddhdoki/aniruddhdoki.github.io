@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#gameOfLife {
+  width: 100vw;
+  height: 100vh;
+  background-color: orange;
+  display: grid;
+  grid-template-columns: repeat(60, 1fr);
+}
